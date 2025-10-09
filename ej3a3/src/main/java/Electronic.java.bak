@@ -1,0 +1,35 @@
+public class Electronic extends Product {
+    private int warrantyMonths;
+
+    public Electronic(int id, String name, double price, int warrantyMonths) {
+        super(id, name, price);
+        // TODO: call setWarrantyMonths
+    }
+
+    public Electronic(int id, String name, double price) {
+        // TODO: call other constructor with 0 as warranty
+        super(id, name, price);
+    }
+
+    public void setWarrantyMonths(int warrantyMonths) {
+        // TODO: if negative, print "Warranty cannot be negative."
+        // else assign the value
+    }
+
+    public int getWarrantyMonths() {
+        // TODO: return warrantyMonths
+        return 0;
+    }
+
+    public String displayWarranty() {
+        // TODO: return "This product has a warranty of <warrantyMonths> months."
+        return null;
+    }
+
+    @Override
+    public String toString() {
+        // TODO: return the string in the format:
+        // <id> - <name>: <price>€ - Warranty: <warrantyMonths> months
+        return null;
+    }
+}
